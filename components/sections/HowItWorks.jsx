@@ -31,7 +31,7 @@ const HowItWorks = () => {
 
         <div className="flex items-center gap-4 mt-10 justify-center">
           <div className="w-14 h-px bg-[#6B7280]/20" />
-          <p className="text-[#6B7280] text-[14px] whitespace-nowrap font-semibold">
+          <p className="text-[#6B7280] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] whitespace-nowrap font-medium">
             Ready in less time than it takes to make coffee
           </p>
           <div className="h-px bg-[#6B7280]/20 w-14" />

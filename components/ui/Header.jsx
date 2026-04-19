@@ -17,7 +17,7 @@ const Header = ({ heading, para, white }) => {
 
       <p
         className={`w-full  max-w-sm sm:max-w-md md:max-w-xl lg:max-w-2xl 
-        text-[16px] sm:text-[17px] md:text-[18px] lg:text-20px] 
+        text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px]
         font-medium md:font-medium text-center 
         ${white ? "text-white/60" : "text-[#6B7280]"}
       `}
