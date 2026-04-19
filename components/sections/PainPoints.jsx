@@ -11,7 +11,7 @@ const PainPoints = () => {
             </h2>
           </header>
 
-          <p className="text-[17px] font-medium md:text-[16px] lg:text-[18px] leading-6 md:leading-6.5 lg:leading-7 text-[#6B7280]">
+          <p className="text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] font-medium leading-6 md:leading-6.5 lg:leading-7 text-[#6B7280]">
             Missing a phone call isn&apos;t just an inconvenience — it&apos;s
             lost revenue, damaged reputation, and customers choosing your
             competitors instead.

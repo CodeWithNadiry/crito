@@ -62,7 +62,7 @@ const IndustryExample = () => {
                 <h4 className="font-bold text-[18px] md:text-[20px] lg:text-[22px]">
                   Hotels & Hospitality
                 </h4>
-                <p className="text-[#6B7280] text-[13px] md:text-[14px] font-semibold">
+                <p className="text-[#6B7280] text-[13px] md:text-[15px] font-medium">
                   Handle reservations, guest inquiries, and booking
                   modifications 24/7 with natural conversation
                 </p>
@@ -89,7 +89,7 @@ const IndustryExample = () => {
                       width={14}
                       height={14}
                     />
-                    <p className="text-[13px] md:text-[14px] font-medium">
+                    <p className="text-[14px] sm:text-[15px]  font-medium">
                       {item}
                     </p>
                   </li>
@@ -129,7 +129,7 @@ const IndustryExample = () => {
                   <h4 className="font-bold text-[14px] md:text-[15px]">
                     Guest Booking Inquiry
                   </h4>
-                  <p className="text-[#6B7280] text-[11px] md:text-[12px] font-semibold">
+                  <p className="text-[#6B7280] text-[11px] md:text-[15px] font-medium">
                     Live conversation simulation
                   </p>
                 </div>

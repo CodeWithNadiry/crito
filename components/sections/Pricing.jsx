@@ -13,7 +13,7 @@ const Pricing = () => {
 
         <CardList />
 
-        <p className="text-[#6B7280] mt-4 font-bold">
+        <p className="text-[#6B7280] mt-4 text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] font-medium">
           All plans include a 14-day free trial. No credit card required.
         </p>
       </div>

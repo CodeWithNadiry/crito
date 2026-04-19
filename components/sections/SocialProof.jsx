@@ -22,7 +22,7 @@ const SocialProof = () => {
             10,000+ customer calls handled monthly
           </Button>
 
-          <p className="text-[14px] md:text-[15px] lg:text-[16px] text-[#6B7280] font-semibold max-w-md md:max-w-lg">
+          <p className="text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] text-[#6B7280] font-semibold max-w-md md:max-w-lg">
             Trusted by service businesses across multiple industries
           </p>
         </div>
