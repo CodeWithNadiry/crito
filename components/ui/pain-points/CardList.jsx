@@ -109,7 +109,7 @@ const CardList = () => {
             key={i}
             onClick={() => scrollToCard(i)}
             className={`
-              h-2.5 rounded-full transition-all duration-300
+              h-2.5 rounded-full transition-all duration-300 cursor-pointer
               ${active === i ? "bg-blue-500 w-5" : "bg-gray-300 w-2.5"}
             `}
           />
