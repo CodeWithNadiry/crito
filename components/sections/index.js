@@ -1,0 +1,10 @@
+export { default as Hero } from "./Hero";
+export { default as SocialProof } from "./SocialProof";
+export { default as PainPoints } from "./PainPoints";
+export { default as ProductShowcase } from "./ProductShowcase";
+export { default as HowItWorks } from "./HowItWorks";
+export { default as AudioDemo } from "./AudioDemo";
+export { default as IndustryExample } from "./IndustryExample";
+export { default as VoiceDemo } from "./VoiceDemo";
+export { default as Testimonial } from "./Testimonial";
+export { default as Pricing } from "./Pricing";
