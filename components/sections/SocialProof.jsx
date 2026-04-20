@@ -1,21 +1,25 @@
+"use client";
+
 import Image from "next/image";
 import Button from "../ui/Button";
-import socialLink1 from "@/public/icons/social-link1.png";
+import uno from "@/public/logos/uno.webp";
+import skyware from "@/public/logos/skyware.jpeg";
+import amstern from "@/public/logos/am-stern.jpg";
+import capri from "@/public/logos/capri.png";
+import north from "@/public/logos/north.png";
 
 const socialLinks = [
-  { src: socialLink1, alt: "social link 1" },
-  { src: socialLink1, alt: "social link 2" },
-  { src: socialLink1, alt: "social link 3" },
-  { src: socialLink1, alt: "social link 4" },
-  { src: socialLink1, alt: "social link 5" },
-  { src: socialLink1, alt: "social link 6" },
-  { src: socialLink1, alt: "social link 7" },
+  { src: skyware, alt: "social link 1" },
+  { src: uno, alt: "social link 2" },
+  { src: capri, alt: "social link 4", highlight: true },
+  { src: amstern, alt: "social link 3" },
+  { src: north, alt: "social link 5" },
 ];
 
 const SocialProof = () => {
   return (
     <section aria-label="Social proof" className="border-b border-black/10">
-      <div className="px-4 md:px-10 lg:px-25 flex flex-col items-center gap-10 md:gap-12 lg:gap-13 py-10 md:py-12">
+      <div className="px-4 md:px-10 lg:px-25 flex flex-col items-center pt-12 pb-10 ms:pb-3 md:pb-8 lg:pt-16 lg:pb-0">
         {/* Top Content */}
         <div className="flex flex-col items-center text-center gap-6 md:gap-8">
           <Button variant="tertiary">
@@ -32,18 +36,22 @@ const SocialProof = () => {
           aria-label="Trusted companies"
           className="
             flex flex-wrap justify-center items-center
-            gap-x-6 gap-y-6 md:gap-x-10 md:gap-y-8 lg:gap-x-12
+            gap-x-6 md:gap-x-10  lg:gap-x-12
             w-full
           "
         >
-          {socialLinks.map(({ src, alt }) => (
+          {socialLinks.map(({ src, alt, highlight }) => (
             <li key={alt} className="flex justify-center items-center">
               <Image
                 src={src}
                 alt={alt}
                 width={119}
                 height={43}
-                className="w-20 md:w-25 lg:w-29.75 h-auto"
+                className={`w-28 md:w-32 lg:w-38 object-cover ${
+                  highlight
+                    ? "bg-[#027785] border border-cyan-600 rounded-md p-2"
+                    : ""
+                }`}
               />
             </li>
           ))}

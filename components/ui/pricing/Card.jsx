@@ -7,7 +7,7 @@ const Card = ({ card, index }) => {
       className={`
     min-w-[80%] sm:min-w-[60%] md:min-w-[50%]
     lg:min-w-0 
-    w-full lg:max-w-[340px] xl:max-w-[360px]
+    w-full lg:max-w-85 xl:max-w-90
     bg-[#1E3A5F]
     rounded-xl
     p-5 md:p-6
@@ -17,17 +17,17 @@ const Card = ({ card, index }) => {
   `}
     >
       {/* Header */}
-      <header className="flex flex-col gap-2">
+      <header className="flex flex-col gap-2 h-17">
         <h2 className="text-white text-[20px] md:text-[22px] font-semibold">
           {card.heading}
         </h2>
-        <p className="text-[13px] md:text-[14px] text-white/70">
-          {card.quality}
-        </p>
+        {card.time && <p className="text-[18px] md:text-[22px] text-white/70">
+          {card.time} minutes 
+        </p>}
       </header>
 
       {/* Pricing */}
-      <div className="flex flex-col gap-4 mt-5">
+      <div className="flex flex-col gap-4 mt-2">
         <h3 className="text-[26px] md:text-[30px] text-white font-bold">
           {card.price}
           {card.perMonth && (
