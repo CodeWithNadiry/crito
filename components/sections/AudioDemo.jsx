@@ -31,22 +31,22 @@ const AudioDemo = () => {
           className="flex flex-col gap-6 text-center z-20"
         />
 
-        {/* RESPONSIVE BUTTON GROUP */}
+        {/* BUTTON GROUP */}
         <nav
           aria-label="Audience selection"
           className="z-20 w-full flex justify-center"
         >
           <div
             className="
-            p-2 px-2 sm:px-4
-            rounded-4xl
-            bg-black/40
-            flex
-            gap-3 sm:gap-6 md:gap-8
-            items-stretch sm:items-center
-            w-full sm:w-auto
-            max-w-md sm:max-w-none
-          "
+              p-2
+              rounded-3xl
+              bg-black/40
+              flex
+              flex-col sm:flex-row
+              gap-2 sm:gap-4 md:gap-6
+              w-full
+              max-w-md sm:max-w-2xl lg:max-w-3xl
+            "
           >
             <Button
               variant={
@@ -55,7 +55,15 @@ const AudioDemo = () => {
                   : "pricing-transparent"
               }
               onClick={() => handleActiveTab("customerFacing")}
-              className="cursor-pointer whitespace-nowrap"
+              className="
+                w-full sm:w-auto
+                flex-1
+                text-center
+                py-2.5 sm:py-2
+                text-sm sm:text-base
+                rounded-2xl
+                transition-all duration-200
+              "
             >
               Customer-Facing
             </Button>
@@ -67,7 +75,15 @@ const AudioDemo = () => {
                   : "pricing-transparent"
               }
               onClick={() => handleActiveTab("operations")}
-              className="cursor-pointer"
+              className="
+                w-full sm:w-auto
+                flex-1
+                text-center
+                py-2.5 sm:py-2
+                text-sm sm:text-base
+                rounded-2xl
+                transition-all duration-200
+              "
             >
               Operations
             </Button>
@@ -79,7 +95,15 @@ const AudioDemo = () => {
                   : "pricing-transparent"
               }
               onClick={() => handleActiveTab("enterprise")}
-              className="cursor-pointer"
+              className="
+                w-full sm:w-auto
+                flex-1
+                text-center
+                py-2.5 sm:py-2
+                text-sm sm:text-base
+                rounded-2xl
+                transition-all duration-200
+              "
             >
               Enterprise
             </Button>
