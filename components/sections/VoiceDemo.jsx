@@ -12,16 +12,16 @@ const tracks = {
     title: "Customer books an appointment",
     description:
       "AI checks availability, presents options, collects details with confirmation, creates booking",
-    duration: "0:37",
-    audioUrl: "/audio/demo-booking.mp3",
+    duration: "0:48",
+    audioUrl: "/audio/booking.mp3",
   },
 
   check: {
     id: 2,
     title: "Customer checks appointment status",
     description: "AI retrieves booking details and provides live status update",
-    duration: "0:11",
-    audioUrl: "/audio/demo-checking.mp3",
+    duration: "0:13",
+    audioUrl: "/audio/checking.mp3",
   },
 
   ask: {
@@ -29,8 +29,8 @@ const tracks = {
     title: "Customer asks about services",
     description:
       "AI explains available services and answers follow-up questions",
-    duration: "0:12",
-    audioUrl: "/audio/demo-asking.mp3",
+    duration: "0:17",
+    audioUrl: "/audio/asking.mp3",
   },
 };
 
