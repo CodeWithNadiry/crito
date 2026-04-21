@@ -23,7 +23,7 @@ const ProductShowcase = () => {
           </header>
 
           <div className="flex flex-col gap-4 md:gap-5 lg:gap-6 mt-2 text-left">
-            <p className="text-[15px] md:text-[16px] lg:text-[18px] text-[#6B7280] font-semibold leading-5.5 md:leading-6 lg:leading-7">
+            <p className="text-[15px] md:text-[16px] lg:text-[18px] text-[#6B7280] font-medium leading-5.5 md:leading-6 lg:leading-7">
               Crito AI is a voice assistant that answers your business phone and
               talks to customers like a real person. It checks availability,
               books appointments, answers common questions about your services
@@ -31,7 +31,7 @@ const ProductShowcase = () => {
               human touch is needed.
             </p>
 
-            <p className="text-[15px] md:text-[16px] lg:text-[18px] text-[#6B7280] font-semibold leading-5.5 md:leading-6 lg:leading-7">
+            <p className="text-[15px] md:text-[16px] lg:text-[18px] text-[#6B7280] font-medium leading-5.5 md:leading-6 lg:leading-7">
               Every call is recorded, transcribed, and summarized in your
               dashboard — with sentiment analysis, cost tracking, and full
               analytics. Connect to your calendar, CRM, payment systems, and
