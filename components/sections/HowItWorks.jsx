@@ -1,9 +1,12 @@
+'use client';
 import Image from "next/image";
 import CardList from "../ui/how-it-works/CardList";
 import Button from "../ui/Button";
 import Header from "../ui/Header";
+import { useLanguageStore } from "@/store/useLanguage";
 
 const HowItWorks = () => {
+  const {t} = useLanguageStore();
   return (
     <section
       aria-label="how-it-works-heading"
@@ -17,14 +20,12 @@ const HowItWorks = () => {
             width={15}
             height={15}
           />
-          <span>Live in under 30 minutes</span>
+          <span>{t('how_badge')}</span>
         </Button>
 
         <Header
-          heading={"From Setup to Success in 4 Simple Steps"}
-          para={
-            "No technical expertise required. Get your AI voice assistant up and running faster than you can schedule a team meeting."
-          }
+           heading={t("how_heading")}
+          para={t("how_description")}
         />
 
         <CardList />
@@ -32,7 +33,7 @@ const HowItWorks = () => {
         <div className="flex items-center gap-4 mt-10 justify-center">
           <div className="w-14 h-px bg-[#6B7280]/20" />
           <p className="text-[#6B7280] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] whitespace-nowrap font-medium">
-            Ready in less time than it takes to make coffee
+            {t("how_footer")}
           </p>
           <div className="h-px bg-[#6B7280]/20 w-14" />
         </div>

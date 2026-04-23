@@ -4,8 +4,10 @@ import audioDemoBg from "@/public/images/audio-demo/audioDemo.jpg";
 import CardList from "../ui/audio-demo/CardList";
 import Button from "../ui/Button";
 import Header from "../ui/Header";
+import { useLanguageStore } from "@/store/useLanguage";
 
 const AudioDemo = () => {
+  const {t} = useLanguageStore();
   const [activeTab, setActiveTab] = useState("operations");
 
   function handleActiveTab(tab) {
@@ -26,12 +28,11 @@ const AudioDemo = () => {
 
         <Header
           white
-          heading="Everything You Need to Delight Your Customers"
-          para="Powerful features designed for service businesses that value every customer interaction"
+          heading={t("audio_heading")}
+          para={t("audio_description")}
           className="flex flex-col gap-6 text-center z-20"
         />
 
-        {/* BUTTON GROUP */}
         <nav
           aria-label="Audience selection"
           className="z-20 w-full flex justify-center"
@@ -55,17 +56,9 @@ const AudioDemo = () => {
                   : "pricing-transparent"
               }
               onClick={() => handleActiveTab("customerFacing")}
-              className="
-                w-full sm:w-auto
-                flex-1
-                text-center
-                py-2.5 sm:py-2
-                text-sm sm:text-base
-                rounded-2xl
-                transition-all duration-200
-              "
+              className="w-full sm:w-auto flex-1 text-center py-2.5 sm:py-2 text-sm sm:text-base rounded-2xl transition-all duration-200"
             >
-              Customer-Facing
+              {t("audio_tab_customer")}
             </Button>
 
             <Button
@@ -75,17 +68,9 @@ const AudioDemo = () => {
                   : "pricing-transparent"
               }
               onClick={() => handleActiveTab("operations")}
-              className="
-                w-full sm:w-auto
-                flex-1
-                text-center
-                py-2.5 sm:py-2
-                text-sm sm:text-base
-                rounded-2xl
-                transition-all duration-200
-              "
+              className="w-full sm:w-auto flex-1 text-center py-2.5 sm:py-2 text-sm sm:text-base rounded-2xl transition-all duration-200"
             >
-              Operations
+              {t("audio_tab_operations")}
             </Button>
 
             <Button
@@ -95,22 +80,13 @@ const AudioDemo = () => {
                   : "pricing-transparent"
               }
               onClick={() => handleActiveTab("enterprise")}
-              className="
-                w-full sm:w-auto
-                flex-1
-                text-center
-                py-2.5 sm:py-2
-                text-sm sm:text-base
-                rounded-2xl
-                transition-all duration-200
-              "
+              className="w-full sm:w-auto flex-1 text-center py-2.5 sm:py-2 text-sm sm:text-base rounded-2xl transition-all duration-200"
             >
-              Enterprise
+              {t("audio_tab_enterprise")}
             </Button>
           </div>
         </nav>
 
-        {/* CARDS */}
         <section aria-label="Audio demo features" className="z-20 w-full">
           <CardList activeTab={activeTab} />
         </section>

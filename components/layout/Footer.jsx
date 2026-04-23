@@ -1,33 +1,49 @@
+"use client";
+
 import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { useLanguageStore } from "@/store/useLanguage";
 
 const Footer = () => {
+  const { t } = useLanguageStore();
+
   const navColumns = [
     {
-      title: "Product",
-      links: ["Features", "Pricing", "Integrations"],
+      title: t("footer_product"),
+      links: [
+        t("footer_features"),
+        t("footer_pricing"),
+        t("footer_integrations"),
+      ],
     },
     {
-      title: "Company",
-      links: ["About", "Blog", "Careers"],
+      title: t("footer_company"),
+      links: [
+        t("footer_about"),
+        t("footer_blog"),
+        t("footer_careers"),
+      ],
     },
     {
-      title: "Support",
-      links: ["Documentation", "Contact", "Status"],
+      title: t("footer_support"),
+      links: [
+        t("footer_docs"),
+        t("footer_contact"),
+        t("footer_status"),
+      ],
     },
   ];
 
-  const bottomLinks = ["Privacy Policy", "Terms of Service", "Imprint"];
+  const bottomLinks = [
+    t("footer_privacy"),
+    t("footer_terms"),
+    t("footer_imprint"),
+  ];
 
   return (
     <footer className="bg-[#141920] text-white px-4 md:px-10 lg:px-16 xl:px-25 py-12 flex flex-col gap-10">
-      {/* Top Section */}
-      <div
-        className="
-        grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
-        gap-10 md:gap-12
-      "
-      >
-        {/* Brand */}
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12">
+
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center text-xs font-bold">
@@ -37,7 +53,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-white/50 leading-relaxed max-w-xs">
-            Voice AI assistant platform for hotels and hospitality businesses
+            {t("footer_tagline")}
           </p>
         </div>
 
@@ -64,23 +80,9 @@ const Footer = () => {
 
       <hr className="border-white/10" />
 
-      {/* Bottom Section */}
-      <div
-        className="
-        flex flex-col md:flex-row
-        gap-6 md:gap-0
-        items-center md:justify-between
-      "
-      >
-        {/* Left links */}
-        <div
-          className="
-          flex flex-wrap
-          items-center justify-center md:justify-start
-          gap-4 md:gap-6
-          text-sm text-white/50
-        "
-        >
+      <div className="flex flex-col md:flex-row gap-6 md:gap-0 items-center md:justify-between">
+
+        <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 text-sm text-white/50">
           {bottomLinks.map((link) => (
             <a
               key={link}
@@ -95,7 +97,7 @@ const Footer = () => {
             <div className="w-4 h-4 rounded-full border border-white/50 flex items-center justify-center text-[9px]">
               i
             </div>
-            <span>GDPR Compliant</span>
+            <span>{t("footer_gdpr")}</span>
           </div>
         </div>
 
@@ -119,9 +121,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
       <p className="text-center text-sm text-white/40">
-        © 2026 Crito AI. All rights reserved.
+        {t("footer_copyright")}
       </p>
     </footer>
   );
