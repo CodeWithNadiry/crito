@@ -24,8 +24,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-linear-to-r from-[#1E3A5FF2]/95 via-[#1E3A5FD9]/85 to-[#1E3A5F00]/0">
         <Navbar />
 
-        <div className="px-4.5 md:px-10 lg:px-25 flex justify-between max-sm:mt-[17%] max-md:mt-[20%] md:mt-[7%] h-full">
-          <div className="w-146 flex flex-col max-md:gap-7 gap-3">
+        <div className="px-4.5 md:px-10 lg:px-25 flex justify-between max-sm:mt-[11%] max-md:mt-[20%] md:mt-[7%] h-full">
+          <div className="w-146 flex flex-col max-md:gap-7 gap-3 max-sm:gap-3">
             <h1 className="max-md:text-[42px] md:text-[60px] md:w-135.5 max-sm:leading-12 md:leading-18.75 tracking-normal font-bold lg:w-full">
               {t("hero_title")}
             </h1>
