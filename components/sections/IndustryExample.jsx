@@ -79,20 +79,20 @@ const IndustryExample = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-              <div className="self-end">
-                <Button>{t("chat_1")}</Button>
+              <div className="self-end max-w-3/4">
+                <Button className="rounded-md!">{t("chat_1")}</Button>
               </div>
 
-              <div className="self-start">
-                <Button variant="secondary">{t("chat_2")}</Button>
+              <div className="self-start max-w-3/4">
+                <Button variant="secondary" className="rounded-md! text-left! text-gray-500!">{t("chat_2")}</Button>
               </div>
 
-              <div className="self-end">
-                <Button>{t("chat_3")}</Button>
+              <div className="self-end max-w-3/4">
+                <Button className="rounded-md!">{t("chat_3")}</Button>
               </div>
 
-              <div className="self-start">
-                <Button variant="secondary">{t("chat_4")}</Button>
+              <div className="self-start max-w-3/4">
+                <Button variant="secondary" className="rounded-md! text-left! text-gray-500!">{t("chat_4")}</Button>
               </div>
             </div>
           </div>
