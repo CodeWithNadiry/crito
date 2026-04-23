@@ -1,0 +1,366 @@
+{
+  "hero_title": "Crito übernimmt Ihre Geschäftsanrufe, damit Sie es nicht müssen.",
+  "hero_description": "Ihr KI-Rezeptionist ist rund um die Uhr erreichbar, spricht jeden Kunden professionell an und kümmert sich um Buchungen, Fragen und Anfragen — ohne dass Sie einen Finger rühren müssen.",
+  "book_demo": "Demo buchen",
+  "listen_sample": "Beispielanruf anhören",
+
+  "nav_features": "Funktionen",
+  "nav_how_it_works": "So funktioniert es",
+  "nav_industries": "Branchen",
+  "nav_pricing": "Preise",
+  "nav_faq": "FAQ",
+
+  "social_calls_handled": "Über 10.000 Kundenanrufe monatlich bearbeitet",
+  "social_trusted_text": "Vertrauenswürdig für Dienstleistungsunternehmen aus verschiedenen Branchen",
+
+  "pain_title": "Unternehmen verlieren täglich Kunden durch unbeantwortete Anrufe",
+  "pain_description": "Ein verpasster Anruf ist nicht nur eine Unannehmlichkeit — es bedeutet Umsatzverlust, schlechtere Reputation und Kunden, die sich für die Konkurrenz entscheiden.",
+
+  "pain_cards": [
+    {
+      "image": "/images/pain-points/card-image1.jpg",
+      "badge": "NACH DER ARBEITSZEIT",
+      "heading": "Verpasste Anrufe bedeuten verlorene Einnahmen",
+      "paragraph": "Kunden rufen außerhalb der Geschäftszeiten an, landen auf der Mailbox und buchen bei der Konkurrenz, die sofort antwortet.",
+      "btnText": "67% der Anrufe werden zu Spitzenzeiten nicht beantwortet"
+    },
+    {
+      "image": "/images/pain-points/card-image2.jpg",
+      "badge": "JEDEN TAG",
+      "heading": "Konkurrenz ist nur einen Anruf entfernt",
+      "paragraph": "Jeder unbeantwortete Anruf ist ein Kunde, der sich für jemand anderen entscheidet.",
+      "btnText": "85% der Kunden rufen ein zweites Unternehmen an, wenn der erste Anruf unbeantwortet bleibt"
+    },
+    {
+      "image": "/images/pain-points/card-image3.jpg",
+      "badge": "SPITZENZEITEN",
+      "heading": "Überlastete Teams verlieren Kunden",
+      "paragraph": "Ihr Team jongliert zwischen Walk-ins und Anrufen — was zu Fehlern führt.",
+      "btnText": "40% der Anrufer legen nach 60 Sekunden Wartezeit auf"
+    }
+  ],
+
+  "product_badge": "KI-gestützte Lösung",
+  "product_title": "Ein Sprachassistent für Ihr Unternehmen",
+  "product_paragraph_1": "Crito AI ist ein Sprachassistent, der Ihr Geschäftstelefon beantwortet und mit Kunden wie ein echter Mensch spricht. Er prüft Verfügbarkeiten, bucht Termine, beantwortet häufige Fragen zu Ihren Dienstleistungen und Preisen, verwaltet Termine und leitet bei Bedarf an Ihr Team weiter.",
+  "product_paragraph_2": "Jeder Anruf wird aufgezeichnet, transkribiert und in Ihrem Dashboard zusammengefasst — mit Stimmungsanalyse, Kostenverfolgung und vollständigen Analysen. Verbinden Sie Kalender, CRM, Zahlungssysteme und andere Tools mit fertigen Integrationen.",
+  "product_image_alt": "Dashboard-Ansicht von Crito AI mit Anrufanalysen und Assistentenoberfläche",
+
+  "how_badge": "In weniger als 30 Minuten einsatzbereit",
+  "how_heading": "Von der Einrichtung zum Erfolg in 4 einfachen Schritten",
+  "how_description": "Keine technischen Kenntnisse erforderlich. Starten Sie Ihren KI-Sprachassistenten schneller, als Sie ein Teammeeting planen können.",
+  "how_footer": "Bereit in weniger Zeit, als ein Kaffee dauert",
+
+  "how_steps": [
+    {
+      "id": 1,
+      "step": "01",
+      "icon": "/icons/how-it-works/step1-icon.png",
+      "title": "Telefonleitung verbinden",
+      "description": "Fügen Sie Ihre Twilio-Nummer und den Retell-Agenten hinzu. Keine Hardware oder PBX-Änderungen erforderlich."
+    },
+    {
+      "id": 2,
+      "step": "02",
+      "icon": "/icons/how-it-works/step2-icon.png",
+      "title": "Assistent konfigurieren",
+      "description": "Legen Sie Begrüßung, Geschäftszeiten, Modus fest und passen Sie alles an Ihr Unternehmen an."
+    },
+    {
+      "id": 3,
+      "step": "03",
+      "icon": "/icons/how-it-works/step3-icon.png",
+      "title": "Live gehen",
+      "description": "Ihr KI-Assistent beginnt sofort, Anrufe zu beantworten – mit intelligenter Weiterleitung und natürlicher Konversation."
+    },
+    {
+      "id": 4,
+      "step": "04",
+      "icon": "/icons/how-it-works/step4-icon.png",
+      "title": "Jeden Anruf verfolgen",
+      "description": "Alle Anrufe werden aufgezeichnet, transkribiert und analysiert – inklusive Stimmungsanalyse und Kostenübersicht."
+    }
+  ],
+
+  "audio_heading": "Alles, was Sie brauchen, um Ihre Kunden zu begeistern",
+  "audio_description": "Leistungsstarke Funktionen für Dienstleistungsunternehmen, die jede Kundeninteraktion schätzen",
+
+  "audio_tab_customer": "Kundenkontakt",
+  "audio_tab_operations": "Betrieb",
+  "audio_tab_enterprise": "Enterprise",
+
+  "audio_cards": {
+    "operations": [
+      {
+        "id": 1,
+        "icon": "/icons/audio-demo/icon1.png",
+        "title": "Intelligente Anrufweiterleitung",
+        "description": "Wenn ein Kunde einen Mitarbeiter benötigt, wird der Anruf sofort an die richtige Person weitergeleitet."
+      },
+      {
+        "id": 2,
+        "icon": "/icons/audio-demo/icon2.png",
+        "title": "Anrufprotokolle & Aufzeichnungen",
+        "description": "Jeder Anruf wird mit Transkript, Aufnahme, KI-Zusammenfassung und Stimmungsanalyse gespeichert."
+      },
+      {
+        "id": 3,
+        "icon": "/icons/audio-demo/icon3.png",
+        "title": "Zusammenfassungs-E-Mails",
+        "description": "Erhalten Sie nach jedem Anruf eine E-Mail mit Zusammenfassung, Stimmung und Aufzeichnung."
+      },
+      {
+        "id": 4,
+        "icon": "/icons/audio-demo/icon4.png",
+        "title": "Anpassbare Persönlichkeit",
+        "description": "Individuelle Begrüßung, Systemanweisungen und Markenstimme für Ihr Unternehmen."
+      }
+    ],
+
+    "customerFacing": [
+      {
+        "id": 1,
+        "icon": "/icons/audio-demo/icon1.png",
+        "title": "24/7 KI-Rezeptionist",
+        "description": "Beantwortet jeden Anruf sofort – auch außerhalb der Geschäftszeiten."
+      },
+      {
+        "id": 2,
+        "icon": "/icons/audio-demo/icon2.png",
+        "title": "Sofortige Terminbuchung",
+        "description": "Kunden können Termine direkt im Gespräch buchen, verschieben oder stornieren."
+      },
+      {
+        "id": 3,
+        "icon": "/icons/audio-demo/icon3.png",
+        "title": "Intelligente FAQ-Antworten",
+        "description": "Beantwortet sofort häufige Fragen zu Preisen, Standort und Dienstleistungen."
+      },
+      {
+        "id": 4,
+        "icon": "/icons/audio-demo/icon4.png",
+        "title": "Lead-Erfassungssystem",
+        "description": "Erfasst und speichert Kundendaten aus jedem Anruf für die Nachverfolgung."
+      }
+    ],
+
+    "enterprise": [
+      {
+        "id": 1,
+        "icon": "/icons/audio-demo/icon1.png",
+        "title": "Multi-Standort-Steuerung",
+        "description": "Verwalten Sie alle Standorte über ein zentrales Dashboard."
+      },
+      {
+        "id": 2,
+        "icon": "/icons/audio-demo/icon2.png",
+        "title": "Erweiterte API-Integration",
+        "description": "Tiefe Integration mit CRM-, ERP- und internen Systemen."
+      },
+      {
+        "id": 3,
+        "icon": "/icons/audio-demo/icon3.png",
+        "title": "Enterprise-Sicherheit",
+        "description": "Sichere Infrastruktur mit Verschlüsselung und Compliance."
+      },
+      {
+        "id": 4,
+        "icon": "/icons/audio-demo/icon4.png",
+        "title": "Individuelles KI-Training",
+        "description": "Trainieren Sie die KI mit Ihren eigenen Geschäftsdaten."
+      }
+    ]
+  },
+
+  "industry_heading": "Für Dienstleistungsunternehmen entwickelt",
+  "industry_description": "Erleben Sie, wie unsere Voice-KI echte Gespräche in verschiedenen Branchen führt. Wählen Sie eine Branche aus.",
+
+  "industry_list": [
+    {
+      "id": 1,
+      "icon": "/icons/industry-example/icon1.png",
+      "label": "Hotels & Gastgewerbe"
+    },
+    {
+      "id": 2,
+      "icon": "/icons/industry-example/icon2.png",
+      "label": "Medizin & Zahnmedizin"
+    },
+    {
+      "id": 3,
+      "icon": "/icons/industry-example/icon3.png",
+      "label": "Restaurants"
+    },
+    {
+      "id": 4,
+      "icon": "/icons/industry-example/icon4.png",
+      "label": "Fitness & Studios"
+    }
+  ],
+
+  "industry_card_title": "Hotels & Gastgewerbe",
+  "industry_card_desc": "Verwalten Sie Reservierungen, Gästeanfragen und Buchungen rund um die Uhr mit natürlicher Konversation",
+
+  "industry_capabilities_title": "Hauptfunktionen",
+  "industry_capabilities": [
+    "Verfügbarkeitsprüfung von Zimmern",
+    "Buchungen erstellen & ändern",
+    "Informationen zu Annehmlichkeiten",
+    "Check-in/out Unterstützung",
+    "Bearbeitung spezieller Anfragen"
+  ],
+
+  "industry_stats": [
+    ["2.400+", "Anrufe/Monat"],
+    ["340+", "Gespräche"],
+    ["94%", "Zufriedenheit"]
+  ],
+
+  "industry_chat_title": "Buchungsanfrage eines Gastes",
+  "industry_chat_sub": "Live-Gesprächssimulation",
+
+  "chat_1": "Hallo, haben Sie für dieses Wochenende noch Zimmer frei?",
+  "chat_2": "Hallo! Ja, wir haben noch Zimmer verfügbar. Möchten Sie unsere Optionen und Preise erfahren?",
+  "chat_3": "Ja, gerne",
+  "chat_4": "Wir haben mehrere Optionen: Coral Suite für 499$/Nacht, Azure View für 399$/Nacht und Starfish Room für 299$/Nacht. Welche möchten Sie buchen?",
+
+  "testimonial_heading": "Vertraut von Dienstleistungsprofis",
+  "testimonial_description": "Erfahren Sie, was Unternehmer und Betreiber über ihre Erfahrungen sagen",
+
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "Crito AI hat unsere Praxis revolutioniert. Früher haben wir viele Anrufe verpasst, jetzt bekommt jeder Patient sofort eine Antwort. Unsere Buchungsrate ist um 40 % gestiegen.",
+      "name": "Dr. Sarah Martinez",
+      "role": "Praxisinhaberin",
+      "company": "Riverside Medical Clinic",
+      "badge": "40 % mehr Buchungen",
+      "avatar": "/images/testimonial/woman-avatar.avif"
+    },
+    {
+      "id": 2,
+      "text": "Die KI übernimmt unsere Standardanfragen perfekt. Unser Team kann sich jetzt auf exzellenten Service konzentrieren, statt ständig am Telefon zu sein.",
+      "name": "Michael Chen",
+      "role": "Betriebsleiter",
+      "company": "Fitness First Gym",
+      "badge": "15 Stunden pro Woche gespart",
+      "avatar": "/images/testimonial/man1-avatar.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Mehrere Standorte zu verwalten war früher schwierig. Mit Crito AI hat jeder Standort seinen eigenen Assistenten und ich kann alles zentral steuern.",
+      "name": "Emma Thompson",
+      "role": "Betriebsdirektorin",
+      "company": "Bliss Spa & Wellness Group",
+      "badge": "5 Standorte effizient verwaltet",
+      "avatar": "/images/testimonial/man2-avatar.jpg"
+    }
+  ],
+
+  "pricing_heading": "Einfache, transparente Preise",
+  "pricing_para": "Wählen Sie den Plan, der zu Ihrem Unternehmen passt",
+  "pricing_note": "Alle Pläne beinhalten eine 14-tägige kostenlose Testphase. Keine Kreditkarte erforderlich.",
+
+  "pricing_essential": "Basis",
+  "pricing_growth": "Wachstum",
+  "pricing_enterprise": "Unternehmen",
+
+  "pricing_start_trial": "Kostenlos testen",
+  "pricing_contact_sales": "Vertrieb kontaktieren",
+
+  "feature_24_7": "24/7 KI-Verfügbarkeit",
+  "feature_calendar": "Kalender- & CRM-Integration",
+  "feature_transcripts": "Anrufprotokolle & Aufzeichnungen",
+  "feature_basic_analytics": "Grundlegende Analysen",
+  "feature_email_support": "E-Mail-Support",
+  "feature_notifications": "E-Mail- & SMS-Benachrichtigungen",
+
+  "feature_all_integrations": "Alle Integrationen enthalten",
+  "feature_custom_api": "Individuelle API-Tools",
+  "feature_team": "Teamverwaltung",
+  "feature_priority": "Priorisierter Support",
+
+  "feature_multi_location": "Mehrere Standorte",
+  "feature_unlimited_calls": "Unbegrenzte Anrufe",
+  "feature_advanced_analytics": "Erweiterte Analysen",
+  "feature_dedicated_support": "Dedizierter Support",
+  "feature_sla": "Individuelle SLA",
+  "feature_white_label": "White-Label-Option",
+
+  "integrations_heading": "Wir kümmern uns um die Einrichtung, Sie konzentrieren sich auf Ihre Kunden",
+  "integrations_para": "Fertig einsatzbereite Verbindungen mit den Tools, auf die Unternehmen vertrauen. Minimale Reibung, maximale Leistung.",
+
+  "integration_twilio_desc": "Telefoninfrastruktur",
+  "integration_rest_desc": "Integration",
+  "integration_openai_desc": "KI-Intelligenz",
+
+  "integration_support_title": "Wir bieten vollständige technische Unterstützung für eine reibungslose Systemintegration",
+  "integration_support_desc": "Wir helfen dabei, Ihre Apps und Tools problemlos miteinander zu verbinden",
+
+  "faq_heading": "Häufig gestellte Fragen",
+  "faq_para": "Alles, was Sie über Crito AI wissen müssen",
+
+  "faq_q1": "Klingt es wie eine echte Person?",
+  "faq_a1": "Ja, unsere KI nutzt fortschrittliche Sprachtechnologie, um natürliche und realistische Gespräche zu führen.",
+
+  "faq_q2": "Kann es mehrere Sprachen unterstützen?",
+  "faq_a2": "Ja, die KI unterstützt mehrere Sprachen und passt sich der bevorzugten Sprache Ihrer Kunden an.",
+
+  "faq_q3": "Lässt es sich in unsere bestehenden Systeme integrieren?",
+  "faq_a3": "Absolut. Es integriert sich mit CRMs, Kalendern und APIs und passt sich problemlos in Ihren Workflow ein.",
+
+  "faq_q4": "Was passiert außerhalb der Geschäftszeiten?",
+  "faq_a4": "Ihre KI arbeitet rund um die Uhr, beantwortet Anrufe und hilft Kunden, auch wenn Ihr Team offline ist.",
+
+  "faq_q5": "Kann ich mehrere Standorte verwalten?",
+  "faq_a5": "Ja, Sie können mehrere Standorte über ein zentrales Dashboard verwalten.",
+
+  "faq_still": "Haben Sie noch Fragen?",
+  "faq_contact": "Support kontaktieren →",
+
+  "cta_heading": "Bereit, Ihr Kundenerlebnis zu verbessern?",
+  "cta_book_demo": "Demo buchen",
+  "cta_start_trial": "Kostenlos testen",
+  "cta_footer": "Keine Kreditkarte erforderlich • 14 Tage kostenlos testen • Einrichtung in weniger als 1 Tag",
+
+  "footer_tagline": "Voice-AI-Plattform für Hotels und Gastgewerbe",
+
+  "footer_product": "Produkt",
+  "footer_company": "Unternehmen",
+  "footer_support": "Support",
+
+  "footer_features": "Funktionen",
+  "footer_pricing": "Preise",
+  "footer_integrations": "Integrationen",
+
+  "footer_about": "Über uns",
+  "footer_blog": "Blog",
+  "footer_careers": "Karriere",
+
+  "footer_docs": "Dokumentation",
+  "footer_contact": "Kontakt",
+  "footer_status": "Status",
+
+  "footer_privacy": "Datenschutz",
+  "footer_terms": "Nutzungsbedingungen",
+  "footer_imprint": "Impressum",
+
+  "footer_gdpr": "DSGVO-konform",
+
+  "footer_copyright": "© 2026 Crito AI. Alle Rechte vorbehalten.",
+
+
+  "voice_heading": "Hören Sie es in Aktion",
+  "voice_para": "Hören Sie echte Gespräche zwischen Kunden und dem KI-Assistenten",
+
+  "voice_book_title": "Kunde bucht einen Termin",
+  "voice_book_desc": "Die KI prüft die Verfügbarkeit, bietet Optionen an, sammelt Details und erstellt die Buchung",
+
+  "voice_check_title": "Kunde prüft den Terminstatus",
+  "voice_check_desc": "Die KI ruft Buchungsdetails ab und gibt ein aktuelles Status-Update",
+
+  "voice_ask_title": "Kunde fragt nach Dienstleistungen",
+  "voice_ask_desc": "Die KI erklärt verfügbare Dienstleistungen und beantwortet weitere Fragen",
+
+  "voice_cta": "Möchten Sie das für Ihr Unternehmen? Demo buchen"
+}
