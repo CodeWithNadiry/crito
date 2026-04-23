@@ -2,15 +2,35 @@
 
 import { useEffect, useRef, useState } from "react";
 import Card from "./Card";
-import { useLanguageStore } from "@/store/useLanguage";
-
+const cards = [
+  {
+    image: "/images/pain-points/card-image1.jpg",
+    badge: "AFTER HOURS",
+    heading: "Missed calls mean missed revenue",
+    paragraph:
+      "Customers call outside business hours, get voicemail, and book with your competitor who answers immediately.",
+    btnText: "67% of calls go unanswered during peak hours",
+  },
+  {
+    image: "/images/pain-points/card-image2.jpg",
+    badge: "EVERY DAY",
+    heading: "Competitors are one call away",
+    paragraph: "Every unanswered call is a customer choosing someone else.",
+    btnText:
+      "85% of customers call a second business when first call goes unanswered",
+  },
+  {
+    image: "/images/pain-points/card-image3.jpg",
+    badge: "PEAK TIMES",
+    heading: "Overwhelmed teams lose customers",
+    paragraph: "Your staff juggles walk-ins and calls — leading to mistakes.",
+    btnText: "40% of callers hang up after waiting 60 seconds",
+  },
+];
 const CardList = () => {
-  const {t} = useLanguageStore();
   const scrollRef = useRef(null);
   const [active, setActive] = useState(0);
 
-  const cards = t('pain_cards');
-  
   useEffect(() => {
     const container = scrollRef.current;
 

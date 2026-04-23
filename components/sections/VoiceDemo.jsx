@@ -5,37 +5,36 @@ import audioDemoBg from "@/public/images/audio-demo/audioDemo.jpg";
 import Button from "../ui/Button";
 import WaveForm from "../ui/WaveForm";
 import { useState } from "react";
-import { useLanguageStore } from "@/store/useLanguage";
+
+const tracks = {
+  book: {
+    id: 1,
+    title: "Customer books an appointment",
+    description:
+      "AI checks availability, presents options, collects details with confirmation, creates booking",
+    duration: "0:48",
+    audioUrl: "/audio/booking.mp3",
+  },
+
+  check: {
+    id: 2,
+    title: "Customer checks appointment status",
+    description: "AI retrieves booking details and provides live status update",
+    duration: "0:13",
+    audioUrl: "/audio/checking.mp3",
+  },
+
+  ask: {
+    id: 3,
+    title: "Customer asks about services",
+    description:
+      "AI explains available services and answers follow-up questions",
+    duration: "0:17",
+    audioUrl: "/audio/asking.mp3",
+  },
+};
 
 const VoiceDemo = () => {
-  const { lang, t } = useLanguageStore();
-
-  const tracks = {
-    book: {
-      id: 1,
-      title: t("voice_book_title"),
-      description: t("voice_book_desc"),
-      duration: lang === 'de' ? '0:56': '0:48',
-      audioUrl: lang === "de" ? "/audio/booking_de.mp3" : "/audio/booking_en.mp3",
-    },
-
-    check: {
-      id: 2,
-      title: t("voice_check_title"),
-      description: t("voice_check_desc"),
-      duration: lang === 'de' ? '0:14': '0:13',
-      audioUrl: lang === "de" ? "/audio/checking_de.mp3" : "/audio/checking_en.mp3",
-    },
-
-    ask: {
-      id: 3,
-      title: t("voice_ask_title"),
-      description: t("voice_ask_desc"),
-      duration: lang === 'de' ? '0:23': '0:17',
-      audioUrl: lang === "de" ? "/audio/asking_de.mp3" : "/audio/asking_en.mp3",
-    },
-  };
-
   const [activeVoice, setActiveVoice] = useState("book");
 
   const currentTrack = tracks[activeVoice];
@@ -54,8 +53,8 @@ const VoiceDemo = () => {
 
         <Header
           white
-          heading={t("voice_heading")}
-          para={t("voice_para")}
+          heading="Hear It in Action"
+          para="Listen to real conversations between customers and the AI assistant"
           className="text-center z-20"
         />
 
@@ -96,7 +95,7 @@ const VoiceDemo = () => {
         </div>
 
         <Button className="z-20 px-8! py-3! rounded-full!">
-          {t("voice_cta")}
+          Want this for your business? Book a demo
         </Button>
       </div>
     </section>
