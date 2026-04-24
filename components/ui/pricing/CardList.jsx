@@ -10,7 +10,7 @@ const CardList = () => {
     {
       heading: t("pricing_essential"),
       time: "500",
-      price: "€200",
+      price: "€299",
       perMonth: true,
       btnText: t("pricing_start_trial"),
       gradientBtn: false,
@@ -27,7 +27,7 @@ const CardList = () => {
     {
       heading: t("pricing_growth"),
       time: "1000",
-      price: "€495",
+      price: "€499",
       perMonth: true,
       btnText: t("pricing_start_trial"),
       gradientBtn: true,
