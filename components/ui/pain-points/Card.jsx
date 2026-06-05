@@ -9,6 +9,7 @@ const Card = ({ image, badge, heading, paragraph, btnText }) => {
           src={image}
           alt=""
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
           className="object-cover object-[center_30%]"
         />
 
