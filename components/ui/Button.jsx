@@ -6,37 +6,37 @@ const StyledButton = styled.button`
   justify-content: center;
   cursor: pointer;
   border-radius: 32px;
-  cursor: ${({ variant }) => (variant !== "tertiary" ? "pointer" : "auto")};
-  font-size: ${({ variant }) => (variant === "tertiary" ? "14px" : "16px")};
-  font-weight: ${({ variant }) => (variant === "tertiary" ? "600" : "")};
-  padding: ${({ variant }) =>
-    variant === "tertiary"
+  cursor: ${({ $variant }) => ($variant !== "tertiary" ? "pointer" : "auto")};
+  font-size: ${({ $variant }) => ($variant === "tertiary" ? "14px" : "16px")};
+  font-weight: ${({ $variant }) => ($variant === "tertiary" ? "600" : "")};
+  padding: ${({ $variant }) =>
+    $variant === "tertiary"
       ? "6px 20px"
-      : variant !== "pricing-gradient" && variant !== "pricing-dark"
+      : $variant !== "pricing-gradient" && $variant !== "pricing-dark"
         ? "8px 24px"
         : "5px 10px"};
 
-  width: ${({ variant }) =>
-    variant === "pricing-gradient" || variant === "pricing-dark"
+  width: ${({ $variant }) =>
+    $variant === "pricing-gradient" || $variant === "pricing-dark"
       ? "100%"
       : "fit-content"};
 
-  height: ${({ variant }) =>
-    variant === "pricing-gradient" || variant === "pricing-dark"
+  height: ${({ $variant }) =>
+    $variant === "pricing-gradient" || $variant === "pricing-dark"
       ? "36px"
       : "auto"};
 
-  color: ${({ variant }) =>
-    variant === "secondary"
+  color: ${({ $variant }) =>
+    $variant === "secondary"
       ? "#3B82F6"
-      : variant === "tertiary"
+      : $variant === "tertiary"
         ? "#3B82F6"
-        : variant === "bordered-secondary"
+        : $variant === "bordered-secondary"
           ? "#6B7280"
           : "#fff"};
 
-  background: ${({ variant }) => {
-    switch (variant) {
+  background: ${({ $variant }) => {
+    switch ($variant) {
       case "primary":
         return "#3B82F6";
       case "secondary":
@@ -57,17 +57,17 @@ const StyledButton = styled.button`
     }
   }};
 
-  border: ${({ variant }) =>
-    variant === "pricing-dark" 
+  border: ${({ $variant }) =>
+    $variant === "pricing-dark"
       ? "2px solid rgba(255, 255, 255, 0.15)"
-      : variant === "tertiary"
+      : $variant === "tertiary"
         ? "1px solid rgba(59, 130, 246, 0.3)"
-        : variant === "bordered-secondary"
+        : $variant === "bordered-secondary"
           ? "1px solid #0000001A"
           : "none"};
 
-  box-shadow: ${({ variant }) => {
-    switch (variant) {
+  box-shadow: ${({ $variant }) => {
+    switch ($variant) {
       case "bordered-secondary":
         return "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)";
       case "pricing-gradient":
@@ -79,24 +79,24 @@ const StyledButton = styled.button`
 
   transition: all 0.25s ease;
 
-  ${({ variant }) =>
-    variant === "primary" &&
+  ${({ $variant }) =>
+    $variant === "primary" &&
     `
       &:hover {
         background: #2563EB;
       }
     `};
 
-  ${({ variant }) =>
-    (variant === "secondary" || variant === "bordered-secondary") &&
+  ${({ $variant }) =>
+    ($variant === "secondary" || $variant === "bordered-secondary") &&
     `
     &:hover {
       background: #dadada;
     }
   `}
 
-  ${({ variant }) =>
-    variant === "pricing-dark" &&
+  ${({ $variant }) =>
+    $variant === "pricing-dark" &&
     `
       &:hover {
         background: #111827;
@@ -104,8 +104,8 @@ const StyledButton = styled.button`
       }
     `}
 
-  ${({ variant }) =>
-    variant === "pricing-gradient" &&
+  ${({ $variant }) =>
+    $variant === "pricing-gradient" &&
     `
       &:hover {
         background: linear-gradient(10deg, #2563EB 0%, #0F172A 100%);
@@ -113,6 +113,7 @@ const StyledButton = styled.button`
       }
     `}
 `;
+
 const Button = ({
   className = "",
   variant = "primary",
@@ -120,7 +121,7 @@ const Button = ({
   ...props
 }) => {
   return (
-    <StyledButton className={className} variant={variant} {...props}>
+    <StyledButton className={className} $variant={variant} {...props}>
       {children}
     </StyledButton>
   );

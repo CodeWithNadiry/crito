@@ -21,6 +21,8 @@ export const useLanguageStore = create(
     }),
     {
       name: "language-storage",
+      // Defer reading localStorage until after React hydration (avoids de/en mismatch)
+      skipHydration: true,
     },
   ),
 );
