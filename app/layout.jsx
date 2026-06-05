@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
+      <body className={urbanist.className} suppressHydrationWarning>
         <LanguageHydration />
         <main className="overflow-x-hidden">{children}</main>
         <footer>
