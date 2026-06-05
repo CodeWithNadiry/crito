@@ -349,5 +349,58 @@
   "voice_ask_title": "Customer asks about services",
   "voice_ask_desc": "AI explains available services and answers follow-up questions",
 
-  "voice_cta": "Want this for your business? Book a demo"
+  "voice_cta": "Want this for your business? Book a demo",
+
+  "demo_modal_aria": "Book a Demo Call",
+  "demo_modal_close_aria": "Close",
+  "demo_modal_title": "Book a Free Demo Call",
+  "demo_modal_subtitle": "Enter your details and our AI agent will call you within minutes.",
+
+  "demo_label_name": "Full name",
+  "demo_label_email": "Business email",
+  "demo_label_phone": "Phone number",
+  "demo_label_company": "Company",
+  "demo_label_optional": "(optional)",
+
+  "demo_placeholder_name": "Jane Smith",
+  "demo_placeholder_email": "jane@hotel.com",
+  "demo_placeholder_phone": "+49 151 23456789",
+  "demo_placeholder_company": "Boutique Hotel GmbH",
+
+  "demo_phone_hint": "Include your country code (e.g. +49 for Germany, +1 for US)",
+
+  "demo_consent_prefix": "I agree to be contacted by Crito AI for a product demonstration. Standard call rates may apply.",
+  "demo_consent_privacy": "Privacy Policy",
+
+  "demo_submit": "Schedule My Demo Call",
+  "demo_submitting": "Scheduling your call...",
+
+  "demo_success_title": "Your demo call is scheduled!",
+  "demo_success_prefix": "We'll call",
+  "demo_success_suffix": "within 1–3 minutes. Keep your phone nearby.",
+
+  "demo_outside_title": "Your request is queued",
+  "demo_outside_body": "Demo calls are available Monday–Friday 8am–8pm and Saturday 10am–4pm (CET). We'll call you when the window opens.",
+
+  "demo_duplicate_title": "Already scheduled",
+  "demo_duplicate_body": "A call is already scheduled for this number. Please keep your phone nearby — we'll call shortly.",
+
+  "demo_rate_title": "Too many requests",
+  "demo_rate_body": "Too many requests from this device. Please try again later.",
+
+  "demo_error_title": "Something went wrong",
+  "demo_error_body": "Something went wrong. Please email hello@crito.ai.",
+
+  "demo_done": "Done",
+  "demo_got_it": "Got it",
+  "demo_close": "Close",
+  "demo_try_again": "Try again",
+
+  "demo_err_name_required": "Full name is required.",
+  "demo_err_email_required": "Business email is required.",
+  "demo_err_email_invalid": "Please enter a valid email address.",
+  "demo_err_phone_required": "Phone number is required.",
+  "demo_err_phone_format": "Use international format, e.g. +4915123456789.",
+  "demo_err_consent_required": "You must agree to be contacted to continue.",
+  "demo_err_phone_api": "Please enter a valid phone number in international format (e.g. +4915123456789)."
 }
