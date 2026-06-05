@@ -7,7 +7,7 @@ import playIcon from "@/public/icons/play-icon.png";
 import Button from "../ui/Button";
 import { useLanguageStore } from "@/store/useLanguage";
 
-const Hero = ({ onBookDemo }) => {
+const Hero = () => {
   const {t, lang} = useLanguageStore()
 
   return (
@@ -21,7 +21,7 @@ const Hero = ({ onBookDemo }) => {
       />
 
       <div className="absolute inset-0 bg-linear-to-r from-[#1E3A5FF2]/95 via-[#1E3A5FD9]/85 to-[#1E3A5F00]/0">
-        <Navbar onBookDemo={onBookDemo} />
+        <Navbar />
 
         <div className={`px-4.5 md:px-10 lg:px-25 flex justify-between ${lang === 'de' ? 'max-sm:mt-[11%]': 'max-sm:mt-[17%]'} max-md:mt-[20%] md:mt-[7%] h-full`}>
           <div className={`w-146 flex flex-col max-md:gap-7 gap-3 ${lang === 'de' ? 'max-sm:gap-3': ''}`}>
@@ -34,7 +34,7 @@ const Hero = ({ onBookDemo }) => {
             </p>
 
             <div className="flex max-md:flex-col max-sm:gap-3 max-md:gap-5 gap-4 mt-3">
-              <Button onClick={onBookDemo} className="max-md:w-full! max-md:p-2.5!">
+              <Button className="max-md:w-full! max-md:p-2.5!">
                 {t("book_demo")}
               </Button>
 

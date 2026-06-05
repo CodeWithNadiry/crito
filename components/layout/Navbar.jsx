@@ -8,7 +8,7 @@ import Button from "../ui/Button";
 import { useState } from "react";
 import { useLanguageStore } from "@/store/useLanguage";
 
-const Navbar = ({ onBookDemo }) => {
+const Navbar = () => {
   const { t, setLang, lang } = useLanguageStore();
   const [showMenu, setShowMenu] = useState(false);
 
@@ -99,7 +99,7 @@ const Navbar = ({ onBookDemo }) => {
           {/* Language Switch */}
 
           {/* CTA Button */}
-          <Button onClick={onBookDemo} className="hidden! lg:block!">{t("book_demo")}</Button>
+          <Button className="hidden! lg:block!">{t("book_demo")}</Button>
         </div>
       </div>
     </nav>
