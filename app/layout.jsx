@@ -1,5 +1,6 @@
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
+import LanguageHydration from "@/components/LanguageHydration";
 import { Urbanist } from "next/font/google";
 
 const urbanist = Urbanist({
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={urbanist.className}>
+        <LanguageHydration />
         <main className="overflow-x-hidden">{children}</main>
         <footer>
           <Footer />

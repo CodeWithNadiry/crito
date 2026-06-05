@@ -38,7 +38,16 @@ const WaveForm = ({ audioUrl }) => {
     wavesurferRef.current.on("pause", () => setIsPlaying(false));
     wavesurferRef.current.on("finish", () => setIsPlaying(false));
 
-    return () => wavesurferRef.current?.destroy();
+    return () => {
+      const ws = wavesurferRef.current;
+      wavesurferRef.current = null;
+      if (!ws) return;
+      try {
+        ws.destroy();
+      } catch {
+        // WaveSurfer may abort an in-flight load during teardown — safe to ignore
+      }
+    };
   }, [audioUrl]);
 
   const handlePlay = () => {
