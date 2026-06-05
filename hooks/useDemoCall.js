@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import { useLanguageStore } from '@/store/useLanguage';
 
 /**
  * useDemoCall
@@ -16,6 +17,7 @@ import { useState, useCallback } from 'react';
 const E164_PATTERN = /^\+[1-9]\d{6,14}$/;
 
 export function useDemoCall() {
+  const t = useLanguageStore((s) => s.t);
   const [status, setStatus] = useState('idle');
   const [resultData, setResultData] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
@@ -33,9 +35,7 @@ export function useDemoCall() {
     const phone = (formData.phone || '').trim();
     if (!E164_PATTERN.test(phone)) {
       setStatus('error');
-      setErrorMessage(
-        'Please enter a valid phone number in international format (e.g. +4915123456789).'
-      );
+      setErrorMessage(t('demo_err_phone_api'));
       return;
     }
 
@@ -97,7 +97,7 @@ export function useDemoCall() {
     } catch {
       setStatus('error');
     }
-  }, []);
+  }, [t]);
 
   return { status, resultData, errorMessage, submit, reset };
 }

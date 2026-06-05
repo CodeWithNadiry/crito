@@ -362,5 +362,58 @@
   "voice_ask_title": "Kunde fragt nach Dienstleistungen",
   "voice_ask_desc": "Die KI erklärt verfügbare Dienstleistungen und beantwortet weitere Fragen",
 
-  "voice_cta": "Möchten Sie das für Ihr Unternehmen? Demo buchen"
+  "voice_cta": "Möchten Sie das für Ihr Unternehmen? Demo buchen",
+
+  "demo_modal_aria": "Demo-Anruf buchen",
+  "demo_modal_close_aria": "Schließen",
+  "demo_modal_title": "Kostenlosen Demo-Anruf buchen",
+  "demo_modal_subtitle": "Geben Sie Ihre Daten ein – unser KI-Agent ruft Sie in wenigen Minuten an.",
+
+  "demo_label_name": "Vollständiger Name",
+  "demo_label_email": "Geschäftliche E-Mail",
+  "demo_label_phone": "Telefonnummer",
+  "demo_label_company": "Unternehmen",
+  "demo_label_optional": "(optional)",
+
+  "demo_placeholder_name": "Maria Schmidt",
+  "demo_placeholder_email": "maria@hotel.de",
+  "demo_placeholder_phone": "+49 151 23456789",
+  "demo_placeholder_company": "Boutique Hotel GmbH",
+
+  "demo_phone_hint": "Bitte Ländervorwahl angeben (z. B. +49 für Deutschland, +1 für USA)",
+
+  "demo_consent_prefix": "Ich bin damit einverstanden, von Crito AI zu einer Produktdemonstration kontaktiert zu werden. Es können Standard-Gesprächsgebühren anfallen.",
+  "demo_consent_privacy": "Datenschutz",
+
+  "demo_submit": "Demo-Anruf planen",
+  "demo_submitting": "Anruf wird geplant …",
+
+  "demo_success_title": "Ihr Demo-Anruf ist geplant!",
+  "demo_success_prefix": "Wir rufen",
+  "demo_success_suffix": "innerhalb von 1–3 Minuten an. Bitte halten Sie Ihr Telefon bereit.",
+
+  "demo_outside_title": "Ihre Anfrage ist in der Warteschlange",
+  "demo_outside_body": "Demo-Anrufe sind Montag–Freitag 8–20 Uhr und Samstag 10–16 Uhr (MEZ) verfügbar. Wir rufen Sie an, sobald das Zeitfenster öffnet.",
+
+  "demo_duplicate_title": "Bereits geplant",
+  "demo_duplicate_body": "Für diese Nummer ist bereits ein Anruf geplant. Bitte halten Sie Ihr Telefon bereit – wir rufen in Kürze an.",
+
+  "demo_rate_title": "Zu viele Anfragen",
+  "demo_rate_body": "Zu viele Anfragen von diesem Gerät. Bitte versuchen Sie es später erneut.",
+
+  "demo_error_title": "Etwas ist schiefgelaufen",
+  "demo_error_body": "Etwas ist schiefgelaufen. Bitte schreiben Sie an hello@crito.ai.",
+
+  "demo_done": "Fertig",
+  "demo_got_it": "Verstanden",
+  "demo_close": "Schließen",
+  "demo_try_again": "Erneut versuchen",
+
+  "demo_err_name_required": "Bitte geben Sie Ihren vollständigen Namen ein.",
+  "demo_err_email_required": "Bitte geben Sie Ihre geschäftliche E-Mail-Adresse ein.",
+  "demo_err_email_invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+  "demo_err_phone_required": "Bitte geben Sie Ihre Telefonnummer ein.",
+  "demo_err_phone_format": "Bitte verwenden Sie das internationale Format, z. B. +4915123456789.",
+  "demo_err_consent_required": "Bitte stimmen Sie der Kontaktaufnahme zu, um fortzufahren.",
+  "demo_err_phone_api": "Bitte geben Sie eine gültige Telefonnummer im internationalen Format ein (z. B. +4915123456789)."
 }
