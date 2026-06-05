@@ -59,10 +59,11 @@ export function useDemoCall() {
     };
 
     const apiUrl = process.env.NEXT_PUBLIC_API_URL || '';
+    const orgSlug = process.env.NEXT_PUBLIC_OUTBOUND_ORG_SLUG || 'crito-demo';
     const apiKey = process.env.NEXT_PUBLIC_DEMO_API_KEY || '';
 
     try {
-      const response = await fetch(`${apiUrl}/api/public/demo-calls`, {
+      const response = await fetch(`${apiUrl}/api/public/${orgSlug}/demo-calls`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
