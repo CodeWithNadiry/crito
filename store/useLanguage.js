@@ -6,7 +6,8 @@ import de from "../locales/de.json";
 
 const translations = { en, de };
 
-// language storee
+
+// language store
 export const useLanguageStore = create(
   persist(
     (set, get) => ({
